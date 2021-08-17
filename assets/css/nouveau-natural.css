@@ -1,0 +1,367 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html{
+  scroll-padding-top: 100px;
+}
+
+
+.message{
+  /* border: 1px solid pink; */
+  height: 30px;
+  text-align: center;
+  background-color: #BB7A32;
+  width: 100%;
+}
+
+.message a{
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+header{
+  /* border: 1px solid red; */
+  overflow: auto;
+  background-color: #F4F4F4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px;
+  z-index: 100; 
+  box-shadow: 0px 1px 10px #662012;
+}
+
+h1{
+  font-family: 'Prata', serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  color: #662012;
+  float: left;
+  /* border: 1px solid blue; */
+  width: 100%;
+  position: relative;
+}
+
+#logo{
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 520px;
+}
+
+.topnav{
+  position: absolute;
+  top: 55px;
+  right: 30px;
+  float: right;
+  /* border: 1px solid orange; */
+  margin-right: 20px;
+}
+
+.topnav span, i{
+  color: #662012;
+}
+
+.login{
+  float: left;
+}
+
+.cart{
+  float: right;
+  padding-left: 15px;
+}
+
+.login:hover{
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.cart:hover{
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+nav{
+  /* border: 1px solid purple; */
+  width: 100%;
+  clear: both;
+  background-color: #F4F4F4;
+}
+
+nav ul{
+text-align: center;
+}
+
+nav li{
+   background-color: #F4F4F4;
+   display: inline-block;
+   list-style: none;
+   margin: 0 30px;
+   font-family: 'Marcellus SC', serif;
+   text-decoration: none;
+   padding: 15px 15px;
+   /* border: 1px solid red; */
+}
+
+nav li:hover{
+  text-decoration: underline #662012;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #662012;
+}
+
+
+
+
+
+
+
+main{
+  background-color: #f4f4f4;
+  margin-top: 153px;
+}
+
+.title-text h2{
+  font-family: 'Prata', serif;
+  font-size: 40px;
+  color: #662012;
+  padding-left: 40px;
+  padding: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+title{
+ /* height: 364px; */
+ /* border: 1px solid blue; */
+ overflow: auto;
+}
+
+.title-text{
+  /* border: 1px solid green; */
+  height: 532px;
+  width: 30%;
+  float: left;
+}
+
+.title img{
+  /* border: 1px solid red; */
+  /* height: 300px; */
+  width: 70%;
+  float: right;
+}
+
+.title p{
+  font-family: serif;
+  color: #BB7A32;
+  width: 90%;
+  padding: 30px;
+  line-height: 30px;
+}
+
+.featured-products a{
+ color: #662012;
+ text-decoration: none;
+}
+
+.featured-products a:hover{
+  text-decoration: underline;
+}
+
+
+.featured-products h3{
+  clear: both;
+  font-family: 'Marcellus SC', serif;
+  color: #662012;
+  font-size: 30px;
+  text-align: center;
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.goods1{
+  height: 453px;
+  /* border: 1px solid blue; */
+  width: 70%;
+  overflow: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.goods1 img{
+  width: 300px;
+  border: 2px solid #66201271;
+
+}
+
+.goods1 p{
+  padding-top: 10px;
+}
+
+.goods-name{
+  padding: 10px 0;
+}
+
+
+.by-room-sofa{
+  /* border: 1px solid red; */
+  height: 450px;
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+.by-room-chair{
+  /* border: 1px solid purple; */
+  height: 450px;
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.by-room-table{
+/* border: 1px solid orange; */
+height: 450px;
+width: 32%;
+float: left;
+text-align: center;
+}
+
+.by-room-sofa, .by-room-chair{
+  margin-right: 2%;
+}
+
+.goods2{
+  /* border: 1px solid green; */
+  height: 453px;
+  width: 70%;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.goods2 img{
+  width: 300px;
+  border: 2px solid #66201271;
+}
+
+.goods2 p{
+  padding-top: 10px;
+}
+
+
+
+.by-room-lamp{
+  /* border: 1px solid yellow; */
+  height: 450px;
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.by-room-pillow{
+  /* border: 1px solid deeppink; */
+  height: 450px;
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.by-room-plant{
+  /* border: 1px solid black; */
+  height: 450px;
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+
+.by-room-lamp, .by-room-pillow{
+  margin-right: 2%;
+}
+
+
+footer{
+  background-color: #bb7b32;
+}
+
+
+.footer-container{
+  width: 70%;
+  overflow: auto;
+  height: 300px;
+  margin: 0px auto;
+  /* border: 1px solid pink; */
+  padding: 40px;
+}
+
+.information{
+  width: 32%;
+  float: left;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.about-us-container, .customer-care-container{
+  margin-right: 2%;
+}
+
+
+
+
+.information h6{
+  font-size: 20px;
+  font-family:'Prata', serif;
+  color: #f4f4f4;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.information ul{
+  /* border:1px solid yellow; */
+  padding: 0; 
+}
+
+.information li{
+  /* border: 1px solid blue; */
+  list-style: none;
+  padding: 2px;
+  font-size: 16px;
+  
+}
+
+.information a{
+  color: #fcf5ed;
+  text-decoration: none;
+}
+ .information a:hover{
+   text-decoration: underline;
+   color: #662012;
+ }
+
+.sns-container li{
+  list-style: none;
+  font-size: 40px;
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0;
+}
+
+.sns-container i:hover{
+  color: #662012;
+}
+
+.information i{
+  font-size: 30px;
+  color: #fcf5ed;
+}
+
+footer{
+  /* border: 1px solid palevioletred; */
+}

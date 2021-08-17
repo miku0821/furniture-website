@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header{
+  /* border: 1px solid red; */
+  height: 500px;
+  background-color: #662012;
+  position: relative;
+}
+
+h1{
+  color: #F4F4F4;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 35px;
+  letter-spacing: 2px;
+  font-family: 'Prata', serif;
+}
+
+header p{
+background-color: #cfb495;
+color: #F4F4F4;
+font-size: 25px;
+width: 30%;
+height: 346px;
+padding-left: 130px;
+padding-top: 80px;
+position: absolute;
+top: 155px;
+right: 320px;
+}
+
+p span{
+  font-size: 16px;
+}
+
+header img{
+position: absolute;
+bottom: -40px;
+left: 350px;
+z-index: 5;
+}
+
+
+
+
+
+main{
+  background-color: #F4F4F4;
+  height: 100%;
+  position: relative;
+}
+
+.story-section{
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+  position: relative;
+}
+
+.story-section h2{
+  /* border: 1px solid blue; */
+  font-size: 53px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 170px;
+  font-family: 'Marcellus SC', serif;
+  color: #662012;
+  text-align: left;
+}
+
+.story-section p{
+  color: #49150c;
+  /* border: 1px solid red; */
+}
+
+.story1{
+  width: 50%;
+  padding: 50px 0px;
+  padding-left: 100px;
+  font-size: 17px;
+  /* border: 1px solid darkturquoise; */
+}
+
+.story2{
+  padding: 50px;
+  padding-left: 700px;
+  /* position: absolute;
+  top: 450px;
+  right: 100px; */
+  font-size: 17px;
+  /* border: 1px solid green; */
+}
+
+.last-paragraph{
+  padding: 20px;
+  padding-left: 700px;
+  /* position: absolute;
+  bottom: 50px;
+  right: 100px; */
+  font-size: 17px;
+  /* border: 1px solid chocolate; */
+}
+
+.last-paragraph{
+  padding-bottom:60px;
+}
+
+#japandi{
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+#table{
+  position: absolute;
+  bottom: 50px;
+  left: 520px;
+}
+
+#living{
+  position:absolute;
+  bottom: 100px;
+  left: 200px;
+  z-index: 20;
+}
+.box1{
+  width: 300px;
+  height: 350px;
+  border: 2px solid  #662012;
+  position: absolute;
+  bottom: 150px;
+  left: 300px;
+}
+
+.box2{
+  width: 110px;
+  height: 100px;
+  border: 5px dotted #662012;
+  position: absolute;
+  top: 340px;
+  right: 210px;
+}
+
+footer{
+  height: 200px;
+  background-color:  #662012;
+}
